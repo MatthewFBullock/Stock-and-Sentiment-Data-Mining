@@ -58,15 +58,11 @@ fil = open('StockSentiment.csv', 'w', newline='')	#Use Python's CSV object to wr
 		 # open a file for writing
 		 		 
 	 			
-Apple = URL()
-Boeing = URL()
-Chevron = URL()
-Cisco = URL()
-AmericanExpress = URL()
-Apple.URLInput(URL_Apple)
-Boeing.URLInput(URL_Boeing)
-Chevron.URLInput(URL_Chevron)
-Cisco.URLInput(URL_Cisco)
-AmericanExpress.URLInput(URL_AmericanExpress)
+URL = URL()
+URL.URLInput(URL_Apple)
+URL.URLInput(URL_Boeing)
+URL.URLInput(URL_Chevron)
+URL.URLInput(URL_Cisco)
+URL.URLInput(URL_AmericanExpress)
 
 fil.close()	#Close files after you are done to ensure all the data is written
