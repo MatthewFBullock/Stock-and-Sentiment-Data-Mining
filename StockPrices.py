@@ -2,7 +2,7 @@ import csv  #This Python module helps read and write csv files
 from urllib import request  #for accessing files on the internet
 import json #allow simplified use of json data
 import csv #allow
-
+#comment to test github
 URL_Apple = 'https://www.quandl.com/api/v3/datasets/EOD/AAPL.json?api_key=zwzJQCDVUU-CXGCxSiY_&start_date=2014-01-01&end_date=2015-01-01'
 URL_Boeing = 'https://www.quandl.com/api/v3/datasets/EOD/BA.json?api_key=zwzJQCDVUU-CXGCxSiY_&start_date=2014-01-01&end_date=2015-01-01'
 URL_Chevron = 'https://www.quandl.com/api/v3/datasets/EOD/CVX.json?api_key=zwzJQCDVUU-CXGCxSiY_&start_date=2014-01-01&end_date=2015-01-01'
