@@ -13,6 +13,7 @@ WriteCount = 0
 class URL:
 	def URLInput(self, URLInputJSON):
 		global WriteCount #counter for keeping the heading proper
+		#Global variables are generally bad mkay, but due to the simplicity of this program, I'll allow it
 		response = request.urlopen(URLInputJSON)
 		string = response.read().decode('utf-8') #This grabs all the data at once
 		json_obj = json.loads(string) #This parses the json data
